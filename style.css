@@ -1,0 +1,91 @@
+img {
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+html {
+  background-color: rgba(202, 191, 182, 1);
+}
+
+body {
+  background-color: white;
+  width: 600px;
+  margin: auto;
+  padding-top: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.link {
+  text-align: center;
+  padding-bottom: 18px;
+}
+
+a {
+  background-color: rgba(201, 121, 59, 1);
+  text-decoration: none;
+  color: rgba(51, 31, 15, 1);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.hr-1 {
+  height: 1.2px;
+  background-color: rgba(204, 204, 204, 1);
+}
+
+h2 {
+  font-family: "Proza Libre";
+  font-weight: 500;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+p,
+span {
+  font-family: "Open Sans";
+  font-size: 14px;
+}
+
+.italic {
+  font-style: italic;
+}
+
+li {
+  font-family: "Open Sans";
+  font-size: 14px;
+}
+
+#btn-android {
+  background-color: rgba(164, 201, 59, 1);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  font-family: "Open Sans";
+  font-weight: 600;
+  border-radius: 3px;
+}
+
+#btn-apple {
+  background-color: rgba(182, 188, 202, 1);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  font-family: "Open Sans";
+  font-weight: 600;
+  border-radius: 3px;
+}
+
+a:hover {
+  border: 1px solid black;
+}
